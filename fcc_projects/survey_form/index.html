@@ -1,1 +1,70 @@
-<html></html>
+<html>
+  <div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Anime Recommendation Survey</h1>
+      <p id="description" class="description text-center">A safe place for weebs</p>
+    </header>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required />
+      </div>
+      <div>
+        <label id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required />
+      </div>
+      <div>
+        <label id="number-label" for="number">Age</label>
+        <input type="number" name="age" id="number" min="8" max="99" placeholder="Age"/>
+      </div>
+      <div>
+        <label id="name-label">Anime Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter anime name" required />
+      </div>
+      <div>
+        <p>What do you like most about this anime</p>
+        <select id="dropdown" name="role" required>
+          <option disabled selected value>Select top reason</option>
+          <option value="mc">Main Character</option>
+          <option value="story">Story</option>
+          <option value="art">Animation</option>
+          <option value="all">Everything</option>
+        </select>
+      </div>
+      <div>
+        <p>Would you recommend this anime for all ages?</p>
+        <label>
+          <input name="user-recommend" value="definitely" type="radio" checked/>Definitely
+        </label>
+        <label>
+          <input name="user-recommend" value="maybe" type="radio" />Maybe
+        </label>
+        <label>
+          <input name="user-recommend" value="no way" type="radio" />No Way
+        </label>
+      </div>
+      <div>
+        <p>What genre is this anime? <span class="clue">(Check all that apply)</span></p>
+        <label>
+          <input name="prefer" value="action" type="checkbox"/>Action
+        </label>
+        <label>
+          <input name="prefer" value="romance" type="checkbox"/>Romance
+        </label>
+        <label>
+          <input name="prefer" value="comedy" type="checkbox"/>Comedy
+        </label>
+        <label>
+          <input name="prefer" value="drama" type="checkbox"/>Drama
+        </label>
+      </div>
+      <div>
+        <p>Any additional comments</p>
+        <textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <div>
+        <button type="submit" id="submit">Sumbit</button>
+      </div>
+    </form>
+  </div>
+</html>
