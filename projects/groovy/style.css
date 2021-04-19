@@ -16,9 +16,14 @@ html {
 }
 
 h1 {
-    color: orange;
+    color: darkorange;
     text-align: center center;
     padding-left: 10px;
+}
+
+h2 {
+    color: darkorange;
+    text-align: center;
 }
 
 .logo {
@@ -65,4 +70,64 @@ li a:hover {
     transform: scale(1.08);
     transition: 450ms;
     border-radius: 15px;
+}
+
+form {
+    background: linear-gradient(
+        160deg,
+        rgb(5, 77, 105),
+        rgb(158, 65, 11)
+      );
+    border-radius: 0.25rem;
+}
+
+section {
+    margin-top: 65px;
+}
+
+.column {
+    float: right;
+    width: 45%;
+    padding: 15px;
+}
+
+p {
+    text-align: center;
+    width: 35%;
+    padding: 20px;
+    margin-left: 5;
+}
+
+label {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 1.145rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    display: block;
+    width: 95%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 95%;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    resize: vertical;
 }
