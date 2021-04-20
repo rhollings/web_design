@@ -1,5 +1,5 @@
 html {
-    background-color: orange;
+    background: linear-gradient(90deg, #ff9933 , #b35900);
 }
 
 #header {
@@ -78,11 +78,15 @@ form {
         rgb(5, 77, 105),
         rgb(158, 65, 11)
       );
-    border-radius: 0.25rem;
+    border-radius: 0.65rem;
 }
 
 section {
     margin-top: 65px;
+}
+
+.about {
+    padding-top: 25px;
 }
 
 .column {
@@ -130,4 +134,11 @@ label {
     padding: 0.625rem;
     border-radius: 0.25rem;
     resize: vertical;
+}
+
+.info {
+    background-color: white;
+    column-fill: auto;
+    border-radius: 8px;
+    margin-left: 30px;
 }
