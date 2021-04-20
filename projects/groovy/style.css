@@ -1,5 +1,5 @@
 html {
-    background: linear-gradient(90deg, #ff9933 , #b35900);
+    background: linear-gradient(90deg, #ff9933 , #96510d);
 }
 
 #header {
@@ -19,10 +19,17 @@ h1 {
     color: darkorange;
     text-align: center center;
     padding-left: 10px;
+    font-family: "Jazz LET", sans-serif;
+    text-shadow: 2px 2px 2px #ababab;
+    font-size: 30px;
 }
 
 h2 {
-    color: darkorange;
+    color: white;
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 
@@ -73,11 +80,12 @@ li a:hover {
 }
 
 form {
-    background: linear-gradient(
-        160deg,
-        rgb(5, 77, 105),
-        rgb(158, 65, 11)
-      );
+    /*background: linear-gradient(
+        70deg,
+        rgb(8, 37, 163),
+        rgb(155, 52, 4)
+      );*/
+    background: #111;
     border-radius: 0.65rem;
 }
 
@@ -91,8 +99,9 @@ section {
 
 .column {
     float: right;
-    width: 45%;
-    padding: 15px;
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
 }
 
 p {
@@ -140,5 +149,6 @@ label {
     background-color: white;
     column-fill: auto;
     border-radius: 8px;
-    margin-left: 30px;
+    margin-left: 65px;
 }
+
