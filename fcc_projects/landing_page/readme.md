@@ -1,4 +1,4 @@
-Check out the final product here
+I tired my luck at recreating Apple's landing page. Without showing all of the products because I do not wish to be sued for copyright 😅
 
 https://codepen.io/rhollings/full/gOgQYWy
 
