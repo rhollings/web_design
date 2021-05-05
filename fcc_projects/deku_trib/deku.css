@@ -52,3 +52,10 @@ img {
   border-style: solid;
   border-color: white;
 }
+
+@media only screen and (min-device-width: 400px) {
+  #image {
+    width: 100%;
+    height: auto;
+  }
+}
