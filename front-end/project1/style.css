@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-bo;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,49 +11,39 @@ body {
 }
 
 .rows {
-    display: grid;
-    grid-template-columns: auto auto auto;
     background-color: #0a395f;
+    perspective: 1000px;
 }
 
 .columns {
     float: left;
+    padding: 5px;
     border-color: black;
     border-style: solid;
-    border-width: 3px;
+    border-width: 2.5px;
     transition: 450ms ease-in-out;
 }
 
-.columns:hover {
+.columns:hove {
     transform: scale(1.05);
-}
-
-h1 {
-    text-align: center;
-    margin-top: 100px;
-}
-
-img {
-    height: 300px;
-    width: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.9;
 }
 
 .card {
     transition: transform 2s;
     transform-style: preserve-3d;
     cursor: pointer;
+    border-color: black;
+    border-style: solid;
 }
 
 .front, .back {
+    text-align: center;
+    background: chocolate;
     position: relative;
     display: flex;
-    flex-direction: ;
+    flex-direction: center;
     justify-content: center;
-    align-items: ;
+    align-items: center;
     backface-visibility: hidden;
 }
 
