@@ -15,6 +15,18 @@ div {
     height: 100%;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    backface-visibility: hidden;
+}
+
 .rows {
     background-color: #111;
     perspective: 1000px;
@@ -25,12 +37,13 @@ div {
     width: 33.33%;
     height: 50%;
     border: 2.5px solid black;
-    transition: 450ms ease-in-out;
+    transition: 550ms ease-in-out;
 }
 
-.columns:hove {
+.columns:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 20px 1px #000;
+    overflow: hidden;
 }
 
 .card {
