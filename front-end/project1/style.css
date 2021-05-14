@@ -72,7 +72,8 @@ h1 {
 
 .back {
     transform: rotateY(180deg);
-    background: white;
+    background: #111;
+    color: white;
 }
 
 /* */
