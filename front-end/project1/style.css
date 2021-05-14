@@ -27,6 +27,16 @@ h1 {
     backface-visibility: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: blue;
+    transition: 400ms ease-in-out;
+}
+
+a:hover {
+    color: pink;
+}
+
 .low {
     position: absolute;
     bottom: 3px;
