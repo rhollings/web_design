@@ -9,3 +9,8 @@ function flip(event){
     }
   }
 };
+else {
+      element.style.transform = "rotateY(180deg)";
+    }
+  }
+};
