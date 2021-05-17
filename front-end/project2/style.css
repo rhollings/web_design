@@ -26,7 +26,7 @@
     padding: 2px;
     margin-top: 8rem;
     margin-right: 5rem;
-    width: 50%;
+    width: 80%;
     border-radius: 2rem;
     float: right;
     box-shadow: 2px 2px black;
@@ -66,10 +66,26 @@ a {
 
 .box2 {
     background-color: #ebe5f1;
-    height: 105vh;
+    height: 100vh;
+    display: flex;
 }
 
 .box3 {
     background-color: cornflowerblue;
     height: 105vh;
+}
+
+.column {
+    width: 55%;
+    margin-top: 08rem;
+    margin-left: 10rem;
+}
+
+.txtbox {
+    background-color: #fff;
+    text-align: justify;
+    font-family: Chewy, sans-serif;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+    padding: 10px;
 }
