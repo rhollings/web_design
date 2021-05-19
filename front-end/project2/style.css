@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #111;
+
+}
+
 .nav {
     background-color: #111;
     color: #fff;
@@ -15,6 +20,7 @@
     font-size: 2.5rem;
     font-family: Chewy, sans-serif;
     padding-left: 20px;
+    z-index: 1;
 }
 
 .img {
@@ -36,6 +42,7 @@
 .img2 {
     height: 105vh;
     width: 100%;
+    position: absolute;
 }
 
 h1 {
@@ -73,13 +80,17 @@ a {
 
 .box3 {
     background-color: cornflowerblue;
-    height: 105vh;
+    height: 101vh;
 }
 
-.column {
+.column1 {
     width: 55%;
     margin-top: 08rem;
     margin-left: 10rem;
+}
+
+.column2 {
+    display: flex;
 }
 
 .txtbox {
@@ -89,4 +100,39 @@ a {
     border-radius: 1.5rem;
     margin-top: 2.5rem;
     padding: 10px;
+}
+
+iframe {
+    z-index: 10;
+    margin-left: 53rem;
+    margin-top: 10rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+}
+
+.links {
+    z-index: 4;
+    position: absolute;
+    margin: 12rem 3rem;
+    font-family: Chewy, sans-serif;
+}
+
+i {
+    margin-right: 1rem;
+}
+
+.btn {
+    display: block;
+    color: rgb(0, 85, 165);
+    transition: 300ms ease-in-out;
+}
+
+.btn:hover {
+    color: salmon;
+    transform: scale(1.03);
+}
+
+a {
+    font-size: 40px;
+    margin-top: 3rem;
 }
