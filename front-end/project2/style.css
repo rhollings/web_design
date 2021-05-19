@@ -113,7 +113,7 @@ iframe {
 .links {
     z-index: 4;
     position: absolute;
-    margin: 12rem 3rem;
+    margin: 10rem 3rem;
     font-family: Chewy, sans-serif;
 }
 
@@ -123,8 +123,11 @@ i {
 
 .btn {
     display: block;
-    color: rgb(0, 85, 165);
+    color: #fff;
+    background-color: #111;
     transition: 300ms ease-in-out;
+    border-radius: 3rem;
+    padding: 10px;
 }
 
 .btn:hover {
