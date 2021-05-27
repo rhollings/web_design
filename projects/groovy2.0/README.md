@@ -1,1 +1,3 @@
 # updated junky junk
+
+currently running on my vs code live server until finihsed ...
