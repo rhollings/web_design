@@ -12,5 +12,5 @@ Personal projects and misc work
 # Projects
 Ideas for companies
 
-# Web-pages
+# Webpages
 Attempt at recreating others web pages
