@@ -12,6 +12,8 @@
     animation-duration: 4s;
   }
 
+/* Can choose any 3 colors for the rainbow */
+
   @keyframes rainbow {
     0% {
       background-color: blue;
