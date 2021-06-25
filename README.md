@@ -1,16 +1,11 @@
-# A collection of my web designs
+# A Collection Web Designs
 
-# Basic
-A folder that contains "basic" 🤷‍♂️ HTML or CSS code
+Basic is a folder that contains "basic" 🤷‍♂️ HTML or CSS code 
 
-# FCC
-Projects from FreeCodeCamps "Responsive Web Design Certification" 
+FCC are projects from FreeCodeCamps "Responsive Web Design Certification" 
 
-# Front-end
-Personal projects and misc work
+Front-end is personal projects and misc work
 
-# Projects
-Ideas for companies
+Projects are ideas for companies
 
-# Webpages
-Attempt at recreating others web pages
+Webpages are attempt at recreating others web pages
