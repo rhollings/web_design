@@ -1,5 +1,8 @@
 # Commerce site attempt #01
 
-Attempt at recreating site. Credit to Kasper De Bruyne. https://codepen.io/kdbkapsere/full/qBdXMLz 
+This page is made utilizing multiple services like: babel, aja, and aws.
 
 My CodePen link: https://codepen.io/rhollings/full/LYyXoBW
+
+
+Attempt at recreating site. Credit to Kasper De Bruyne. https://codepen.io/kdbkapsere/full/qBdXMLz 
