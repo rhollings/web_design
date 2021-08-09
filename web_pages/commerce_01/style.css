@@ -308,7 +308,7 @@ li a {
   bottom: 0;
   right: 0;
   background: var(--bg-color);
-  padding: 30px 100px;
+  padding: 20px 50px;
   clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
 }
 .slide-info-box a {
