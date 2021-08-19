@@ -1,6 +1,10 @@
 I tired my luck at recreating Apple's landing page. Without showing all of the products because I do not wish to be sued for copyright 😅
 
+<a href="https://codepen.io/rhollings/full/gOgQYWy" target="blank">Click here to see</a>
+
+<!--
 https://codepen.io/rhollings/full/gOgQYWy
+-->
 
 PREVIEW:
 
