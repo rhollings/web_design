@@ -20,14 +20,15 @@ body {
   width: 500px;
   padding: 40px 50px;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 .quote-text {
-    text-align: center;
-    width: 450px;
-    height: auto;
-    font-weight: 500;
-    font-size: 1.75em;
+  text-align: center;
+  width: 450px;
+  height: auto;
+  font-weight: 500;
+  font-size: 1.75em;
 }
 
 i {
