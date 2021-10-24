@@ -16,3 +16,5 @@ ex. <a href="https://codepen.io/rhollings/full/LYyXoBW">Landing Page</a>
 
 
 6 Ways to Host to Web Projects => <a href="https://blog.suhailkakar.com/6-ways-to-host-your-react-js-app-for-free">Click Here</a>
+
+<a href="https://javascript.plainenglish.io/10-best-websites-for-practising-and-perfecting-front-end-development-56e382b2c0ac">10 Practices</a> for better web dev
