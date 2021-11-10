@@ -1,0 +1,115 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Red Hat Display, sans-serif;
+}
+
+.main {
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+
+/* How to make BG responsive to veiwing screen??
+.background {}
+*/
+
+/* Main Card */
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    height: 85%;
+    width: 33%;
+    border-radius: 25px;
+}
+
+.image {
+    background-image: url('images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35%;
+    width: 100%;
+    margin: 0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Order Summary */
+
+.order-summary {
+    text-align: center;
+}
+
+.order-text {
+    padding: 0;
+    margin-top: 8%;
+    color: hsl(223, 47%, 23%);
+}
+
+.summary-text {
+    padding: 0% 12% 0% 12%;
+    margin-top: 5%;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+}
+
+/* Plan Description */
+
+.plan-description {
+    display: grid;
+    grid-template-columns: 80px auto 60px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.plan-text {
+    text-align: left;
+}
+
+.plan-time {}
+
+.price {}
+
+.change {
+    background-color: inherit;
+    color: hsl(223, 47%, 23%);
+    border: none;
+    text-decoration: underline;
+}
+
+/* Final Buttons */
+
+.btn-1 {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 7px 10px hsl(224, 23%, 55%);
+}
+
+.btn-2 {
+    margin: 20px 10px;
+    background-color: white;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Buttons */
+
+.btn-1, .btn-2, .change {
+    cursor: pointer;
+}
