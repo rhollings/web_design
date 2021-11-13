@@ -12,12 +12,17 @@
 
 .nav-bar {
     display: grid;
-    grid-template-columns: 18% 68% 24%;
+    grid-template-columns: 20% 60% 14%;
     margin: 2em;
+    cursor: pointer;
 }
 
 .nav-items {
     display: flex;
+}
+
+.logo-img {
+    margin-left: 5em;
 }
 
 li {
@@ -26,5 +31,145 @@ li {
     cursor: pointer;
 }
 
-/* Images */
-/* Text */
+.right-nav {
+    display: flex;
+}
+
+.shopping-cart {
+    margin-right: 3em;
+    margin-top: .5em;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.profile-img {
+    height: 45px;
+    margin-top: -.5em;
+}
+
+.line {
+    background-color: #888888;
+    height: 1px;
+    width: 80%;
+    opacity: 0.7;
+    left: 50%;
+    transform: translate(10%);
+}
+
+/* Main Page */
+
+.beta-half {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.images {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.show-img {
+    height: 410px;
+    border-radius: 15px;
+}
+
+.preview-img {
+    height: 80px;
+    border-radius: 12px;
+    margin: 1.5em 1.6em .5em 0em;
+}
+
+/* 
+how to make active state stay?? 
+why does img enlarge when clicked?
+*/
+.preview-img:active {
+    border: 2px solid hsl(26, 100%, 55%);
+    height: 90px;
+    border-radius: 12px;
+    margin: .4em .7em .4em 0em;
+}
+
+/* Texts */
+.all-texts {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.sneaker-company, .sneaker-name, .sneaker-description, .prices {
+    margin-bottom: 2em;
+}
+
+.prices {
+    display: grid;
+    grid-template-columns: 115px auto;
+}
+
+.new-price {
+    font-size: 30px;
+}
+
+.discount {
+    font-size: 18px;
+    align-self: center;
+}
+
+.old-price {
+    font-size: 16px;
+    margin-top: .5em;
+}
+
+.checkout {
+    display: flex;
+}
+
+.quantity {
+    display: grid;
+    grid-template-columns: 30px 80px 5px;
+    height: 50px;
+    width: 150px;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 10px;
+}
+#quantity {
+    margin: 10px 5px 10px 5px;
+    text-align: center;
+    align-self: center;
+}
+
+#plus, #minus {
+    margin: 0em 1em 0em 1em;
+    border: none;
+    background-color: inherit;
+}
+#plus {
+    margin-top: .4em;
+}
+
+.add-cart {
+    display: flex;
+    margin-left: 2em;
+    height: 50px;
+    width: 200px;
+    background-color: hsl(26, 100%, 55%);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.add-to-cart {
+    background-color: inherit;
+    color: #fff;
+    height: 15px;
+    align-self: center;
+    margin-left: 2em;
+}
+
+.cart-text {
+    padding: 1em;
+    text-align: center;
+}
