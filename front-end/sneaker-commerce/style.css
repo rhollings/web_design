@@ -1,10 +1,13 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Kumbh Sans, sans serif;
 }
 
 .main-page {
-    height: 100vh;
+    height: 93vh;
     width: 100vw;
 }
 
@@ -29,6 +32,7 @@ li {
     margin-left: 2em;
     list-style-type: none;
     cursor: pointer;
+    color: hsl(219, 9%, 45%);
 }
 
 .right-nav {
@@ -67,7 +71,7 @@ li {
 .images {
     position: absolute;
     top: 55%;
-    left: 25%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 
@@ -105,9 +109,18 @@ why does img enlarge when clicked?
     margin-bottom: 2em;
 }
 
+.sneaker-company {
+    color: hsl(26, 100%, 55%);
+}
+
+.sneaker-description {
+    color: hsl(219, 9%, 45%);
+    font-size: 16px;
+}
+
 .prices {
     display: grid;
-    grid-template-columns: 115px auto;
+    grid-template-columns: 115px 45px;
 }
 
 .new-price {
@@ -115,13 +128,20 @@ why does img enlarge when clicked?
 }
 
 .discount {
+    padding: 2px 5px 2px 5px;
     font-size: 18px;
     align-self: center;
+    text-align: center;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 10px;
 }
 
 .old-price {
     font-size: 16px;
     margin-top: .5em;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
 }
 
 .checkout {
