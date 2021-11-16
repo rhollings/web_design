@@ -111,6 +111,11 @@ why does img enlarge when clicked?
 
 .sneaker-company {
     color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+}
+
+.sneaker-name {
+    font-size: 20px;
 }
 
 .sneaker-description {
@@ -166,6 +171,7 @@ why does img enlarge when clicked?
     margin: 0em 1em 0em 1em;
     border: none;
     background-color: inherit;
+    cursor: pointer;
 }
 #plus {
     margin-top: .4em;
@@ -179,6 +185,7 @@ why does img enlarge when clicked?
     background-color: hsl(26, 100%, 55%);
     color: #fff;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* 
