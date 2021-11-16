@@ -51,6 +51,7 @@
           <img id="main-img" class="show-img" src="images/image-product-1.jpg" alt="product-image">
         </div>
         <div>
+          <!-- 2 ways to change the image -->
           <img onclick="changeOne()" id="img1" class="preview-img" src="images/image-product-1-thumbnail.jpg" alt="img-1">
           <img onclick="document.getElementById('main-img').src='images/image-product-2.jpg'" id="img2" class="preview-img" src="images/image-product-2-thumbnail.jpg" alt="img-2">
           <img onclick="document.getElementById('main-img').src='images/image-product-3.jpg'" id="img3" class="preview-img" src="images/image-product-3-thumbnail.jpg" alt="img-3">
@@ -75,9 +76,9 @@
         </div>
         <div class="checkout">
           <div class="quantity">
-            <button id="minus"><img src="images/icon-minus.svg" alt="minus-btn"></button>
+            <button id="minus" onclick="subOne()"><img src="images/icon-minus.svg" alt="minus-btn"></button>
             <p id="quantity">0</p>
-            <button id="plus"><img src="images/icon-plus.svg" alt="plus-btn"></button>
+            <button id="plus" onclick="addOne()"><img src="images/icon-plus.svg" alt="plus-btn"></button>
           </div>
           <div class="add-cart">
             <img class="add-to-cart" src="images/icon-cart.svg" alt="cart-icon">
