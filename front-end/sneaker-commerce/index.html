@@ -12,8 +12,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 11px; text-align: center; position: absolute; bottom: -50% }
+    .attribution a { color: hsl(228, 45%, 44%);}
   </style>
 </head>
 <body>
@@ -50,7 +50,7 @@
         <div>
           <img id="main-img" class="show-img" src="images/image-product-1.jpg" alt="product-image">
         </div>
-        <div>
+        <div class="small-img">
           <!-- 2 ways to change the image -->
           <img onclick="changeOne()" id="img1" class="preview-img" src="images/image-product-1-thumbnail.jpg" alt="img-1">
           <img onclick="document.getElementById('main-img').src='images/image-product-2.jpg'" id="img2" class="preview-img" src="images/image-product-2-thumbnail.jpg" alt="img-2">

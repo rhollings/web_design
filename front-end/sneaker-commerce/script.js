@@ -13,3 +13,7 @@ function subOne() {
 function updateCount(val) {
     document.getElementById("quantity").innerHTML = val;
 }
+
+// How to change image on mobile? 
+// using arrows instead of preview images.
+

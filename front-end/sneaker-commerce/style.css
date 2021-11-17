@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -11,6 +11,12 @@
     width: 100vw;
 }
 
+@media only screen and (max-width: 600px) {
+    .main-page {
+        display: grid;
+    }
+}
+
 /* Nav Bar */
 
 .nav-bar {
@@ -20,12 +26,37 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        position: absolute;
+        top: -3%;
+        left: -20%;
+        width: 25rem;
+        padding: 5px;
+        z-index: 3;
+        background-color: #fff;
+    }
+}
+
 .nav-items {
     display: flex;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-items {
+        display: none;
+    }
 }
 
 .logo-img {
     margin-left: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-img {
+        padding-bottom: 1em;
+    }
 }
 
 li {
@@ -39,6 +70,14 @@ li {
     display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+    .right-nav {
+        position: absolute;
+        top: 10%;
+        left: 70%;
+    }
+}
+
 .shopping-cart {
     margin-right: 3em;
     margin-top: .5em;
@@ -47,18 +86,40 @@ li {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+    .shopping-cart {
+        margin-top: 0em;
+    }
+}
+
 .profile-img {
     height: 45px;
     margin-top: -.5em;
 }
 
+@media only screen and (max-width: 600px) {
+    .profile-img {
+        height: 35px;
+    }
+}
+
+/* 
+How to add menu button?
+*/
+
 .line {
     background-color: #888888;
     height: 1px;
     width: 80%;
-    opacity: 0.7;
+    opacity: 0.3;
     left: 50%;
     transform: translate(10%);
+}
+
+@media only screen and (max-width: 600px) {
+    .line {
+        display: none;
+    }
 }
 
 /* Main Page */
@@ -68,6 +129,12 @@ li {
     grid-template-columns: auto auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .beta-half {
+        grid-template-rows: auto auto auto;
+    }
+}
+
 .images {
     position: absolute;
     top: 55%;
@@ -75,27 +142,55 @@ li {
     transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 600px) {
+    .images {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        z-index: 0;
+    }
+}
+
 .show-img {
     height: 410px;
     border-radius: 15px;
 }
 
+@media only screen and (max-width: 600px) {
+    .show-img {
+        height: 380px;
+    }
+}
+
+/* 
+How to change images?
+How to add prev/next buttons?
+*/
+
 .preview-img {
     height: 80px;
     border-radius: 12px;
     margin: 1.5em 1.6em .5em 0em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .small-img {
+        display: none;
+    }
 }
 
 /* 
 how to make active state stay?? 
 why does img enlarge when clicked?
-*/
+
 .preview-img:active {
     border: 2px solid hsl(26, 100%, 55%);
     height: 90px;
     border-radius: 12px;
     margin: .4em .7em .4em 0em;
 }
+*/
 
 /* Texts */
 .all-texts {
@@ -105,6 +200,15 @@ why does img enlarge when clicked?
     transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 600px) {
+    .all-texts {
+        position: absolute;
+        top: 108%;
+        left: 50%;
+        width: 21em;
+    }
+}
+
 .sneaker-company, .sneaker-name, .sneaker-description, .prices {
     margin-bottom: 2em;
 }
@@ -112,6 +216,8 @@ why does img enlarge when clicked?
 .sneaker-company {
     color: hsl(26, 100%, 55%);
     text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
 }
 
 .sneaker-name {
@@ -121,6 +227,17 @@ why does img enlarge when clicked?
 .sneaker-description {
     color: hsl(219, 9%, 45%);
     font-size: 16px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .sneaker-name {
+        font-size: 15px;
+        text-align: left;
+    }
+    .sneaker-description {
+        line-height: 1.5em;
+    }
 }
 
 .prices {
@@ -147,6 +264,15 @@ why does img enlarge when clicked?
     margin-top: .5em;
     color: hsl(220, 14%, 75%);
     text-decoration: line-through;
+}
+
+@media only screen and (max-width: 600px) {
+    .prices {
+        grid-template-columns: 7em 3em 5em;
+    }
+    .old-price {
+        margin-left: 5em;
+    }
 }
 
 .checkout {
@@ -188,6 +314,10 @@ why does img enlarge when clicked?
     cursor: pointer;
 }
 
+.add-cart:hover {
+    opacity: 0.5;
+}
+
 /* 
 how to change color of svg??
 */
@@ -203,4 +333,21 @@ how to change color of svg??
 .cart-text {
     padding: 1em;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .checkout {
+        display: grid;
+    }
+    .quantity, .add-cart {
+        height: 50px;
+        width: 335px;
+        margin: 0em;
+    }
+    .quantity {
+        grid-template-columns: auto auto auto;
+    }
+    .add-to-cart {
+        margin-left: 6em;
+    }
 }
