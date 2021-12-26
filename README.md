@@ -3,7 +3,7 @@
 Basic is a folder that contains "basic" 🤷‍♂️ HTML or CSS code 
 
 FCC are projects from FreeCodeCamps "Responsive Web Design Certification"  
-ex. <a href="https://codepen.io/rhollings/full/poRaZQP">Survey Form</a>
+ex. <a href="https://codepen.io/rhollings/full/bGrELNL" target="_blank">Anime Quote Generator</a>
 
 Front-end is personal projects and misc work  
 ex. <a href="https://codepen.io/rhollings/full/NWpzyNE">Resturant Page</a>
