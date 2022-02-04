@@ -28,6 +28,8 @@ Understanding <a href="https://preview.webflow.com/preview/flexbox-game?preview=
 
 ===> <a href="https://sass-lang.com/guide" target="_blank">Sass Help</a>
 
+Famous <a href="https://brandpalettes.com/" target="_blank">Brand Colors</a>
+
 <h3> For Photos</h3>
 <a href="https://www.pexels.com/" target="_blank">Pexels</a> // 
 <a href="https://unsplash.com/" target="_blank">Unsplash</a> //
