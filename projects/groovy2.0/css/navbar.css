@@ -11,6 +11,12 @@ nav {
     overflow: auto;
     padding: 10px 30px 20px 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}
   
 .primary-nav {
     float: left;
@@ -39,6 +45,16 @@ nav {
     margin-left: 10px;
     font-size: 20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .secondary-nav {
+        display: none;
+    }
+    .primary-nav {
+        margin-left: 2em;
+    }
+}
   
 nav>ul>li>a {
     color: black;
@@ -49,4 +65,5 @@ nav>ul>li>a {
 nav>ul>li>a:hover {
     color: #cb4335;
     transition: .7s ease;
+    text-decoration: none;
 }

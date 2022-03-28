@@ -5,9 +5,12 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: "Montserrat";
     max-width: 100%;
     overflow-x: hidden;
+}
+
+.font-text {
+    font-family: "Montserrat";
 }
 
 header {
@@ -24,27 +27,18 @@ header {
 
 @media (max-width: 600px) {
     header {
-        background-image: url("Images/nike-bg-5.gif");
+        background-image: url("images/movers1.jpeg");
         background-attachment: scroll;
     }
 }
 
 .about-section {
     padding: 0% 5%;
-    margin: 0% 8%;
-}
-
-.title-text {
-    display: flex;
-    justify-content: space-around;
+    margin: 3.5% 8%;
 }
 
 .preview {
     display: flex;
-}
-
-.item {
-    width: 75%;
 }
 
 .a_text {
@@ -60,8 +54,14 @@ header {
     left: 20px;
 }
 
-.border {
-    color: white;
+
+@media only screen and (max-width: 600px) {
+    .pxtext {
+        top: 45%;
+    }
+}
+
+.banner-text {
     margin: 0;
     font-size: 10vh;
     font-family: "Montserrat";
@@ -99,6 +99,13 @@ header {
     justify-content: space-evenly;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
 .column {
     display: grid;
     justify-content: center;
@@ -111,11 +118,55 @@ header {
     justify-content: center;
     align-items: center;
     margin: 2em;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .column2 {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 1em;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .preview {
+        flex-direction: column-reverse;
+    }
 }
 
 .col {
     width: 50%;
     padding: 40px 20px 40px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .col {
+        margin-bottom: 8em;
+    }
+}
+
+.title-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-text {
+        display: none;
+    }
+}
+
+.item {
+    width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+    .item {
+        margin: 1em;
+    }
 }
 
 .overlay-image {
@@ -204,6 +255,10 @@ footer {
     color: white;
 }
 
+.footer-row {
+    display: flex;
+}
+
 .col>ul>li>a {
     color: white;
     text-decoration: none;
@@ -234,6 +289,7 @@ a {
 
 .foot-icons {
     margin: 0 30% 0 20%;
+    display: flex;
 }
 
 .foot-icons>li {
@@ -251,7 +307,7 @@ a {
 .foot-icons>li>a>i:hover {
     color: #38A1F3;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
-    font-size: 70px;
+    font-size: 50px;
     transition: .2s ease-out;
 }
 
