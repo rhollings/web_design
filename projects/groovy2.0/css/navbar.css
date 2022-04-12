@@ -5,22 +5,24 @@ nav>ul>li {
 nav {
     position: fixed;
     top: 0;
+    height: 8vh;
     width: 100%;
     z-index: 1;
     background-color: white;
-    overflow: auto;
-    padding: 10px 30px 20px 10px;
+    overflow: hidden;
+    padding: 10px 10px 5px 10px;
 }
 
-@media only screen and (max-width: 600px) {
-    nav {
-        display: none;
-    }
+ul {
+    display: flex;
+    justify-content: space-between;
 }
-  
+
 .primary-nav {
     float: left;
     font-size: 20px;
+    width: 60%;
+    margin: -2%;
 }
   
 .primary-nav>a {
@@ -28,7 +30,7 @@ nav {
 }
   
 .primary-nav>img {
-    width: 30px;
+    width: 15%;
 }
   
 .secondary-nav>a {
@@ -40,10 +42,8 @@ nav {
 }
   
 .secondary-nav {
-    float: right;
-    margin-right: 10px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
