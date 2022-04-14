@@ -1,3 +1,4 @@
+/*
 #estimate-form {
   width: max-content;
   width: 30em;
@@ -19,12 +20,24 @@
       width: 20em;
   }
 }
+*/
+
+.form-section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 label {
     display: flex;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
+}
+
+.form-label {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
 }
 
 input,
@@ -41,11 +54,13 @@ button {
     border: none;
 }
 
+/*
 form {
     background: #57a6ff;
     padding: 2.5rem 0.625rem;
     border-radius: 0.25rem;
 }
+*/
 
 .form-group {
     margin: 0 auto 1.25rem auto;
@@ -94,11 +109,17 @@ form {
   border-radius: 0.25rem;
 }
 
+.btn-submit {
+  display: flex;
+  justify-content: center;
+}
+
 .submit-button {
-  display: block;
-  width: 100%;
+  display: flex;
+  width: 25%;
   padding: 0.75rem;
   background: #1ecd61;
+  text-align: center;
   color: inherit;
   border-radius: 2px;
   cursor: pointer;

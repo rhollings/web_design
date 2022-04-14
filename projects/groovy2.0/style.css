@@ -40,6 +40,7 @@ header {
 .a_text {
     font-size: 16px;
     text-align: center;
+    padding: 1em;
 }
 
 .pxtext {
@@ -123,18 +124,12 @@ header {
 }
 */
 
-/*
-.col {
-    width: 50%;
-    padding: 40px 20px 40px 20px;
-}
-
 @media only screen and (max-width: 600px) {
-    .col {
-        margin-bottom: 8em;
+    .col-marg {
+        margin-bottom: 2em;
     }
 }
-*/
+
 
 .item {
     width: 75%;
@@ -151,6 +146,21 @@ header {
     width: 100%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
     border-radius: 7px;
+    background-color: #ffebd2;
+    color: #111;
+}
+
+.overlay-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.overlay-text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding: 1em;
 }
 
 /* Original image */
@@ -208,6 +218,14 @@ header {
 
 #about-us {
     margin: 0 10% 0 10%;
+}
+
+.review-link {
+    color: #111;
+}
+
+.review-link:hover {
+    color: #ed880b;
 }
 
 section h1 {

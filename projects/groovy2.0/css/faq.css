@@ -8,7 +8,7 @@
     text-align: center;
 }
 .our-faq-wrapper {
-      padding: 90px 0 60px;
+    padding: 90px 0 60px;
     background:#fff;  
 }
 .accordion .card {
@@ -34,6 +34,7 @@
 }
 .our-faq-wrapper .btn-link:hover, .our-faq-wrapper .btn-link:focus {
     text-decoration: none;
+    color: #fff;
 }
 .our-faq-wrapper .btn-link:after {
     position: absolute;
@@ -43,6 +44,7 @@
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-family: fontawesome;
+    color: #fff;
 }
 .our-faq-wrapper .btn-link.collapsed:after {
     content: '\f067';
@@ -50,7 +52,7 @@
 .our-faq-wrapper .btn-link:before {
     position: absolute;
     content: '';
-    background: rgb(41, 128, 241);
+    background: #ffa300;
     -webkit-transform: skew(-35deg);
     transform: skew(-35deg);
     height: 100%;
@@ -82,6 +84,6 @@
     width: 50%;
     left: 0;
     bottom: 0;
-    background: rgb(41, 128, 241);
+    background: #ffa300;
     z-index: 1;
 }

@@ -5,12 +5,17 @@ nav>ul>li {
 nav {
     position: fixed;
     top: 0;
-    height: 8vh;
+    height: auto;
     width: 100%;
     z-index: 1;
     background-color: white;
     overflow: hidden;
     padding: 10px 10px 5px 10px;
+}
+
+.my-nav {
+    display: flex;
+    justify-content: flex-end;
 }
 
 ul {
@@ -24,6 +29,24 @@ ul {
     width: 60%;
     margin: -2%;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and  (max-width: 600px) {
+    .to-close {
+        display: none;
+    }
+}
+
+/*
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+*/
   
 .primary-nav>a {
     letter-spacing: 5px;
@@ -43,17 +66,8 @@ ul {
   
 .secondary-nav {
     margin-left: 10px;
+    padding: 10px;
     font-size: 25px;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .secondary-nav {
-        display: none;
-    }
-    .primary-nav {
-        margin-left: 2em;
-    }
 }
   
 nav>ul>li>a {
