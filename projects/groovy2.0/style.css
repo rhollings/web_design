@@ -25,10 +25,17 @@ header {
     height: 90%;
 }
 
+@media (max-width: 830px) {
+    header {
+        background-image: url("images/design-03-small.jpg");
+        background-attachment: scroll;
+        background-size: contain;
+    }
+}
+
 @media (max-width: 600px) {
     header {
-        background-image: url("images/design-03.jpg");
-        background-attachment: scroll;
+        top: -15%;
     }
 }
 
@@ -46,7 +53,7 @@ header {
 .pxtext {
     position: absolute;
     top: 85%;
-    width: 30%;
+    width: 35%;
     padding-left: 0%;
     left: 20px;
 }
