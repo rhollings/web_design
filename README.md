@@ -9,7 +9,7 @@ Front-end is personal projects and misc work
 ex. <a href="https://codepen.io/rhollings/full/NWpzyNE">Resturant Page</a>
 
 Projects are ideas for companies  
-ex. <a href="https://github.com/rhollings/web_design/tree/main/projects/groovy">Junky Junk</a>
+ex. <a href="https://github.com/rhollings/web_design/tree/main/projects/groovy2.0">Junky Junk</a>
 
 Webpages are attempt at recreating others web pages   
 ex. <a href="https://codepen.io/rhollings/full/LYyXoBW">Landing Page</a>
