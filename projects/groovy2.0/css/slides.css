@@ -14,14 +14,30 @@
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 16px;
+    padding: 12px;
     color: #111;
     background-color: #fff;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .img1 {flex: 0.95;}
+    .img2 {flex: 0.95;}
+    .img3 {flex: 0.95;}
+    .img4 {flex: 0.95;}
+    .img5 {flex: 0.95;}
+}
+
+@media only screen and (max-width: 500px) {
+    .img1 {flex: 1.95;}
+    .img2 {flex: 1.95;}
+    .img3 {flex: 0.95;}
+    .img4 {flex: 0.95;}
+    .img5 {flex: 0.95;}
 }
 
 .next {
@@ -48,7 +64,7 @@
 
 @media only screen and (max-width: 710px) {
     .next1 {
-        right: 25%;
+        right: 9%;
     }
 }
 

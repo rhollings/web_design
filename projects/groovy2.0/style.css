@@ -330,6 +330,11 @@ a {
     border-radius: 7px;
 }
 
+.map-mid {
+    display: flex;
+    justify-content: center;
+}
+
 /*
 .item:hover {
     filter: brightness(50%);

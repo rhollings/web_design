@@ -1,0 +1,46 @@
+.main-body {
+    margin: 1em;
+}
+
+.second-main {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    padding: 2em;
+}
+
+.price-table {
+    border: 5px solid #111;
+    padding: 1em;
+    margin: 2em;
+}
+
+.rates {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0px 35px;
+    margin-right: 20px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.top-text {
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.body-text {
+    margin-bottom: 2em;
+}
